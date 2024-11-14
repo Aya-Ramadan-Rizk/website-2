@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main1color--:black;
+    --main2color--:rgb(212, 192, 79);
+    --main3color--:silver;
+    --main4color--:rgb(250, 250, 243);
+    --main5color--:rgb(211, 197, 115);
+    --main6color--:rgb(177, 152, 6);
+    --main7color--:rgb(56, 43, 2);
+    --main8color--:rgb(119, 119, 119);
+    --main9color--:rgb(246, 231, 231);
+    --main10color--:rgb(251, 225, 225);
+    --main11color--:rgb(253, 233, 233);
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.contanier{
+    width: 80%;
+    margin: auto;
+}
+h2{
+    font-size: 35px;
+    color: var(--main1color--);
+    text-align: center;
+    padding: 20px;
+}
+.line-section1{
+    width: 80px;
+    height: 3px;
+    margin: auto auto 30px auto;
+    background-color: brown;
+    transition: 1s;
+}
+.line-section1:hover{
+    transform: scale(2 ,1);
+}
+a{
+    text-decoration: none;
+    color: var(--main7color--);
+}
+ul{
+    list-style-type: none;
+}
+body{
+    background-color: var(--main9color--);
+}
+/* ---------------------------------------- {header ---------------------------------------- */
+header{
+    width: 100%;
+    height: 150px;
+    overflow: auto;
+    position: relative;
+    z-index: 8;
+}
+.img-logo{
+    margin-right: 50px;
+    float: left;
+}
+.list-header li ,i,.span-header,.number-header{
+    display: inline-block;
+}
+header li ,i , .span-header ,.number-header{
+    margin-left: 20px;
+    float: left;
+    margin-top: 45px;
+    font-size: 20px;
+}
+header nav a i:hover{
+    color: var(--main8color--);
+    transform: scale(1.05);
+}
+.number-header{
+    color: #fff;
+    width: 15px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--main7color--);
+    text-align: center;
+    font-size: 18px;
+    margin:55px auto auto 0px;
+}
+.icon-header ,.list-header ,.span-header{
+    color: var(--main7color--);
+    font-size: 30px;
+}
+.icon-header-number:hover .number-header{
+    transform: scale(1.05 ,1.05);
+}
+/* -----------------{table ----------------- */
+.table-header{
+    background-color: var(--main11color--);
+    width: fit-content;
+    line-height: 35px;
+    border: 3px solid var(--main1color--);
+    position: absolute;
+    z-index: 10;
+    left: 430px;
+    top: 100px;
+    padding: 20px;
+    display: none;
+    color: var(--main7color--);
+}
+.table-header ul{
+    display: inline-block;
+    margin-right: 50px;
+}
+.address-table{
+    border-bottom: 1px dotted var(--main2color--);
+    width: fit-content;
+}
+.open-table-header:hover .table-header{
+    display: block;
+}
+/* -----------------table} ----------------- */
+/* ---------------------------------------- header} ---------------------------------------- */
+/* ---------------------------------------- {main ---------------------------------------- */
+main{
+    background-image: url(../images/صوره\ لبلاط\ \(20\).webp);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    z-index: 8;
+    position: relative;
+}
+main .content{
+    font-size: 35px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-30% ,-50%);
+}
+main .content h1{
+    color: var(--main1color--);
+    text-shadow: 2px 2px 10px var(--main2color--);
+}
+main .content button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px 10px 10px 0px ;
+    font-size: 30px;
+    color: var(--main5color--);
+    background-color: var(--main4color--);
+    cursor: pointer;
+    margin-top: 50px;
+}
+/* ---------------------------------------- main} ---------------------------------------- */
+/* ---------------------------------------- {section1 ---------------------------------------- */
+.all-content-section1 ,.p-section1{
+    display: flex;
+}
+.img-section1{
+    width: 19.25vw;
+}
+.content-section1{
+    margin-left: 1vw;
+}
+.p-section1-1{
+    font-size: 19px;
+    color: var(--main3color--);
+}
+.p-section1-3{
+    margin-left: auto;
+    background-color: brown;
+    font-size: 35px;
+    color: azure;
+    padding: 0 5px;
+    visibility: hidden;
+}
+.p-section1-2{
+    font-size: 22px;
+}
+.content-section1-1:hover .p-section1-3{
+    visibility: visible;
+} 
+/* ---------------------------------------- section1} ---------------------------------------- */
+/* ---------------------------------------- {section2 ---------------------------------------- */
+.section2 ,.parent-p-section2{
+    display: flex;
+    flex-direction: row;
+}
+.content-section2{
+    width: 40%;
+    height: 440px;
+    background-color: var(--main4color--);
+    padding-left: 10px;
+}
+.parent-p-section2{
+    justify-content: flex-end;
+}
+.p-section2{
+    width: 50px;
+    height: 2px;
+    margin: 35px 20px auto;
+    background-color: var(--main6color--);
+}
+.p-section2-2 ,.icon-section2{
+    color: var(--main5color--);
+}
+.p-section2-1{
+    font-size: 20px;
+    margin-left: 50px;
+
+}
+.icon-section2{
+    font-size: xx-large;
+}
+/* ////////////////////////////////// */
+.content-img-section2{
+    width: 28%;
+    height: 440px;
+    background-size: cover;
+    transition: 1s;
+}
+.content-img-section2:hover{
+    transform: scale(1.05 ,1.05);
+}
+.content-img1-section2{
+    background-image: url(../images/صوره\ لبلاط\ \(19\).jpg);
+    margin: auto 2% auto 2%;
+}
+.content-img2-section2{
+    background-image: url(../images/صوره\ لبلاط\ \(2\).jpg);
+}
+.p-img1-section2-1{
+    color: rgb(167, 253, 40);
+}
+.p-img1-section2-2{
+    color: gold;
+}
+/* ---------------------------------------- section2} ---------------------------------------- */
+/* ---------------------------------------- {section3 ---------------------------------------- */
+.section3{
+    display: flex;
+}
+.all-icon-section3{
+    width: 20%;
+}
+.h5-section3 ,.p-section3{
+    text-align: center;
+}
+.p-section3{
+    font-size: 17px;
+    padding-left: 0px;
+}
+.all-icon1-section3{
+    border-right: 2px solid black;
+    position: relative;
+}
+.icon-section3{
+    font-size: 50px;
+    position: absolute;
+    left: 30%;
+    color: var(--main5color--);
+}
+/* ---------------------------------------- section3} ---------------------------------------- */
+/* ---------------------------------------- {footer ---------------------------------------- */
+.list-footer ,.all-1-content-footer ,.all-2-content-footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.all-img-footer{
+    perspective: 600px;
+}
+.all-img-footer ,.img1-footer ,.img2-footer{
+    width: 350px;
+    height: 400px;
+}
+.img-footer{
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.5s;
+}
+.img1-footer ,.img2-footer{
+    position: absolute;
+}
+.img1-footer{
+    z-index: 2;
+    backface-visibility: hidden;
+}
+.img-footer:hover{
+    transform: rotateY(90deg);
+}
+.img2-footer{
+    transform: rotateY(90deg);
+}
+.all-icon-footer{
+    transform: rotateY(-90deg);
+    position: absolute;
+    top: 50%;
+    transform: translate3d(-50% ,-50%);
+    visibility: hidden;
+}
+.img-footer:hover .all-icon-footer{
+    visibility: visible;
+}
+.fa-star{
+    margin-left: 0px;
+    color: gold;
+    cursor: text;
+}
+.icon-footer{
+    color: var(--main3color--);
+}
+.p1-footer{
+    color: var(--main1color--);
+}
+.p2-footer{
+    color: var(--main2color--);
+}
+/* ---------------------------------------- footer} ---------------------------------------- */
